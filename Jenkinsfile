@@ -5,7 +5,7 @@ pipeline {
         //DOCKER_IMAGE = "tulakhordia/worldofgames" // Replace with your DockerHub repository
         //DOCKER_TAG = "latest"
         DOCKERHUB_CREDENTIALS = 'docker_tulak_id' // Jenkins credential ID for DockerHub
-        DOCKER_COMPOSE = "/opt/homebrew/bin/docker-compose"
+        DOCKER_COMPOSE = "/usr/local/bin/docker-compose"
     }
 
     stages {
